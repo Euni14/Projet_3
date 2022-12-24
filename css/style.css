@@ -58,7 +58,7 @@ nav {
   
 }
 
-a:hover {
+.menu:hover {
 
 border-top: 2px solid #0065FC;
 color:#0065FC ;
@@ -67,50 +67,98 @@ color:#0065FC ;
 /* MAIN */
 /* section -- search */
 
-.choice {
+.search {
 
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-text-align: center;
+  margin: 0px 0px 20px 0px;
 }
 
-.icon {
-  border: 1px solid #f2f2f2;
-  background-color: #F2F2F2;
+.search p {
+
+  margin: 20px 0px 30px 0px;
+}
+
+.choice {
+
+display: flex;
+justify-content: flex-start;
+height: 49px;
+
+}
+
+.map {
+
+  padding: 15px;
+  background-color: #D9D9D9;
   border-radius: 15px 0px 0px 15px;
-  width: 50px;
-  height: 49px;
-  font-size: x-large;
-  color: #D9D9D9;
-  padding-top: 8px; /* bien centre l'icone couleur des bordures a rectifier*/ 
+  font-size: 20px;
+
 }
 
 input {
+
+text-align: center;
 font-size: 16px;
 color: #D9D9D9;
 border: 1px solid #D9D9D9;
-text-align: center;
-width: 235px;
-height: 49px;
+
 }
 
-.execute {
-  width: 132px;
-  height: 49px;
+.btn {
+  padding: 0px 10px 0px 10px;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffff;
   background-color: #0065FC;
-  border-radius: 0px 15px 15px 0px;
   border: 1px solid #0065FC;
-}
-.execute i {
-  visibility: hidden;
-} 
-.search p {
-
-  margin: 10px 0px 30px 0px;
-  
+  border-radius: 0px 15px 15px 0px;
 }
 
+/* section filtre */
 
+.list {
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+font-weight: bold;
+}
+
+.list i {
+  color: #0065FC;
+  font-size: 18px;
+ 
+}
+
+.list-choice {
+text-align: center;
+  border: 2px solid #D9D9D9;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.list-choice:hover {
+  background-color: #DEEBFF;
+  transform: scale(1.05);
+}
+
+/* icone information*/
+.note {
+  display: flex;
+  align-items: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  color: #0065FC;
+  border: 1px solid #D9D9D9;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+/* les cartes de vistes*/
+
+/* affichage hebergements a Marseille*/

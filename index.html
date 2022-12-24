@@ -21,8 +21,8 @@
             <div class="headband">
                 <img class="logo" src="image/logo/Booki.png" alt="logobooki">
                 <nav>
-                    <a class="menu" href="#">Hébergements</a>
-                    <a class="menu" href="#">Activités</a>
+                    <a class="menu" href="#Hébergements">Hébergements</a>
+                    <a class="menu" href="#Activités">Activités</a>
                 </nav>
             </div>
         </header>
@@ -34,33 +34,84 @@
                 <p>En plein centre-ville ou en pleine nature</p>
 
                 <div class="choice">
-                    <div class="icon">
+
+                    <div class="map">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
-                    
-                        <input type="text" name="town" placeholder="Marseille,France" />
-                    
-                    
-                        <button class="execute" type="button"><i class="fa-solid fa-magnifying-glass"></i>Rechercher</button>
-                    
+
+                    <input type="text" name="town" placeholder="Marseille,France" />
+
+                    <button class="btn" type="button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span class="execute">Rechercher</span>
+                    </button>
+
                 </div>
+
+                <!-- pour la partie filtre-->
+
                 <div class="list">
-                    <ul>
-                        <li> Filtres</li>
-                        <li><i class="fa-solid fa-money-bill-wave"></i>Economique</li>
-                        <li><i class="fa-solid fa-person"></i>Familial</li>
-                        <li><i class="fa-solid fa-heart"></i>Romantique</li>
-                        <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
-                    </ul>
+
+                    <div class="filter">
+                        <span> Filtres</span>
+                    </div>
+
+                    <div class="list-choice">
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <span>Économique</span>
+                    </div>
+
+                    <div class="list-choice">
+                        <i class="fa-solid fa-person"></i>
+                        <span>Familial</span>
+                    </div>
+
+                    <div class="list-choice">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Romantique</span>
+                    </div>
+
+                    <div class="list-choice">
+                        <i class="fa-solid fa-dog"></i>
+                        <span>Animaux autorisés</span>
+                    </div>
+
                 </div>
+
+                <!-- icone information -->
+
                 <div class="note">
 
-                    <i class="fa-solid fa-circle-info"></i>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                    
+                   <div class="info">
+                    <i class="fa-solid fa-info"></i>
                 </div>
+                    <span>Plus de 500 logements sont disponibles dans cette ville</span>
+
+                </div>
+
             </section>
+            
             <section class="home">
+
+                <article class="homeleft">
+
+                    <h2 id="Hébergements">Hébergements à Marseille </h2>
+
+                    <div class="above">
+                        <img src="/image/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus loke">
+                        <h4>Auberge La Canebière</h4>
+                        <p> Nuit à partir de 25<i class="fa-solid fa-euro-sign"></i> </p>
+
+                        <i class="fa-solid fa-star "></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star "></i>
+                    </div>
+                    <div class="under"></div>
+                </article>
+
+                <article class="homeright"></article>
 
             </section>
             <section class="hoby">
