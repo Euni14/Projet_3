@@ -1,6 +1,6 @@
 /* PARAMETTRES GENERALES */
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,97 +10,77 @@
   box-sizing: border-box;
 }
 
-
 .container {
 display: block;
 width: 95%;
 min-width: 375px;
 margin: auto ;
-
 }
 
 /* HAEDER structure de la navigation */
-
 .headband {
-  
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-
 }
 
 .logo {
-
 width: 61px;
 height: 29px;
 object-fit: contain;
-
 }
 
+/* pour les lien hébergements activités*/
 nav {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 381px;
- 
 }
 
 .menu {
-
   display: flex;
   align-items: center;
   padding: 0px 30px 0px 30px;
   height: 100px; 
-  color: black;
-  
+  color: black; 
 }
 
 .menu:hover {
-
 border-top: 2px solid #0065FC;
 color:#0065FC ;
 }
 
 /* MAIN */
 /* section -- search */
-
 .search {
-
   margin: 0px 0px 20px 0px;
 }
 
 .search p {
-
   margin: 20px 0px 30px 0px;
 }
 
 .choice {
-
 display: flex;
 justify-content: flex-start;
 height: 49px;
-
 }
 
 .map {
-
   padding: 15px;
   background-color: #D9D9D9;
   border-radius: 15px 0px 0px 15px;
   font-size: 20px;
-
 }
 
 input {
-
 text-align: center;
 font-size: 16px;
 color: #D9D9D9;
 border: 1px solid #D9D9D9;
-
 }
 
 .btn {
@@ -113,9 +93,7 @@ border: 1px solid #D9D9D9;
 }
 
 /* section filtre */
-
 .list {
-
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -126,7 +104,11 @@ font-weight: bold;
 .list i {
   color: #0065FC;
   font-size: 18px;
- 
+  padding: 0px 10px 0px 10px;
+}
+
+.list-choice span {
+  padding-right: 10px;
 }
 
 .list-choice {
@@ -147,6 +129,7 @@ text-align: center;
   display: flex;
   align-items: center;
 }
+
 .info {
   display: flex;
   align-items: center;
@@ -159,6 +142,157 @@ text-align: center;
   border-radius: 25px;
   margin-right: 15px;
 }
-/* les cartes de vistes*/
 
-/* affichage hebergements a Marseille*/
+/* les cartes de vistes*/
+/*couleur des etoiles */
+.lodge i {
+  color:  #0065FC; 
+}
+
+.lodgepopular i {
+  color:  #0065FC;
+}
+
+.stargrey{
+color: #D9D9D9!important;
+}
+
+/* conteneur des des deux partie hebergement et populaire*/
+.discover {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  width: 100%;
+  height: 650px;
+}
+
+/* partie hebergement*/
+.homeleft {
+display: flex;
+flex-flow: row wrap;
+flex-basis: 68%;
+justify-content: center;
+gap: 20px 40px;
+border-radius: 20px;
+background-color: #D9D9D9;
+}
+
+.lodge {
+  width: 210px;
+  height: 210px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow:2px 2px 5px rgb(139, 138, 138)
+}
+
+.room {
+display: block;
+margin: auto;
+border-radius: 20px 20px 0px 0px;
+padding-top: 4px;
+width: 200px;
+height: 120px;
+}
+
+/* le titre hebergement à Marseille */
+.show {
+  display: inline;
+  width: 100%;
+  margin: 40px 0px 0px 40px;
+}
+
+.precision {
+  margin: 15px 0px 10px 10px;
+}
+
+/* section populaire */
+.homeright {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+  align-items: center;
+  gap: 40px;
+  border-radius: 20px;
+  background-color: #D9D9D9;
+}
+
+.lodgepopular {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 300px;
+height: 140px;
+padding-left: 5px;
+background-color: white;
+border-radius: 20px;
+box-shadow:2px 2px 5px rgb(139, 138, 138)
+}
+
+.room-popular {
+object-fit: cover;
+border-radius: 20px 0px 0px 20px;
+width: 90px;
+height: 130px; ;
+margin: 5px 0px 5px 0px;
+}
+
+.title {
+width: 90%;
+margin: 40px 20px 20px 20px;
+display: flex;
+flex-direction: row;
+align-items: baseline;
+justify-content: space-between;
+ 
+}
+
+/* icone avec populaire*/
+.fa-solid.fa-chart-line { 
+font-size: 25px;
+  color: #0065FC;
+}
+
+/* espacement hpoto et description populaire*/
+.precision-popular {
+margin: 10px 0px 0px 15px; 
+}
+
+/*espacement des étoiles*/
+.precision-popular i {
+  padding-top: 40px;
+}
+
+.precision-popular h4 {
+  padding-top: 10px;
+}
+
+/*style de afficher plus */
+.attach {
+width: 100%;
+font-size: 18px;
+font-weight: bold;
+margin-left: 50px;
+}
+.attach a {
+  color: black;
+}
+
+.lodge:hover { 
+  transform: scale(1.05);
+}
+.lodgepopular:hover {  
+  transform: scale(1.05);
+}
+
+/* section activités à Marseille */
+
+
+
+
+
+
+
+
+
+
