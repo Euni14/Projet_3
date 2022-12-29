@@ -67,6 +67,7 @@ color:#0065FC ;
 display: flex;
 justify-content: flex-start;
 height: 49px;
+margin-top: 50px;
 }
 
 .map {
@@ -98,6 +99,7 @@ border: 1px solid #D9D9D9;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 20px;
 font-weight: bold;
 }
 
@@ -126,6 +128,7 @@ text-align: center;
 
 /* icone information*/
 .note {
+  margin: 10px 0px 50px 0px;
   display: flex;
   align-items: center;
 }
@@ -134,11 +137,11 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10px;
-  width: 20px;
-  height: 20px;
+  font-size: 15px;
+  width: 25px;
+  height: 25px;
   color: #0065FC;
-  border: 1px solid #D9D9D9;
+  border: 1.5px solid #D9D9D9;
   border-radius: 25px;
   margin-right: 15px;
 }
@@ -286,10 +289,73 @@ margin-left: 50px;
 }
 
 /* section activités à Marseille */
+/* la section qui contient tout*/
+.hoby {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 20px;
+gap: 40px;
+width: 100%;
+height: 500px;
 
+}
 
+.hoby-activity {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+}
 
+.hoby-list {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 380px;
+  border: 0px solid white;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow:2px 2px 5px rgb(139, 138, 138)
+}
 
+.landscape {
+width: 270px;
+height: 330px;
+border-radius: 20px 20px 0px 0px;
+}
+
+.hoby-list:hover { 
+  transform: scale(1.05);
+}
+
+.hoby-list p {
+  margin: 10px 0px 0px 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* partie footer*/
+.terminal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+  width: 100%;
+  height: 250px;
+  background-color: #D9D9D9;
+}
+
+.foot h4 {
+margin: 40px 0px 20px 0px;
+}
+
+.foot p {
+  line-height: 35px;
+  font-size: 14px;
+}
+
+/* integration sur tablette */
 
 
 
