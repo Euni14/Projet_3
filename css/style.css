@@ -1,4 +1,5 @@
-/* PARAMETTRES GENERALES */
+/*******************CSS PAR DEFAUT*************/
+/* paramettres générals */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap');
 
 * {
@@ -27,8 +28,8 @@
 }
 
 .logo {
-  width: 100px;
-  height: 69px;
+  width: 90px;
+  height: 59px;
   object-fit: contain;
 }
 
@@ -44,7 +45,7 @@ nav {
   display: flex;
   align-items: center;
   padding: 20px 20px 0px 20px;
-  font-size: 130%;
+  font-size: 120%;
   width: 100%;
   height: 100px;
   color: black;
@@ -62,12 +63,12 @@ nav {
 /* taille et position du formulaire */
 
 .search h2 {
-  font-size: 150%;
+  font-size: 130%;
 }
 
 .search p {
   margin: 20px 0px 40px 0px;
-  font-size: 140%;
+  font-size: 120%;
 }
 
 /* map bouton et recherche */
@@ -82,7 +83,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
+  width: 70px;
   background-color: #D9D9D9;
   border-radius: 15px 0px 0px 15px;
   font-size: 140%;
@@ -114,24 +115,23 @@ input {
 /* FILTRE */
 .filter-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-star;
   align-items: center;
+  width: 70%;
   font-weight: bold;
-  font-size: 115%;
+  font-size: 100%;
   margin-bottom: 30px;
-  gap: 3%;
+  gap: 4%;
 }
 
 .list-choose {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 3%;
+  justify-content: center; 
 
 }
 
 .filter-list i {
-  font-size: 120%;
   color: #0065FC;
   padding: 15px 18px 15px 18px;
 }
@@ -148,7 +148,7 @@ input {
   white-space: nowrap;
   border: 2px solid #D9D9D9;
   border-radius: 40px;
-  margin: 1.7%;
+  margin: 1.5%;
 }
 
 
@@ -161,14 +161,14 @@ input {
 .info {
   display: flex;
   align-items: center;
-  margin: 10px 0px 60px 0px;
+  margin: 10px 0px 50px 0px;
 }
 
 .note-info {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 150%;
+  font-size: 130%;
   width: 35px;
   height: 35px;
   color: #0065FC;
@@ -178,18 +178,18 @@ input {
 }
 
 .info span {
-  font-size: 140%;
+  font-size: 120%;
 }
 
 /* SECTION HEBERGEMENT ET POPULAIRES*/
 /*couleur et taille des etoiles */
 .lodge-marseille i {
-  font-size: 90%;
+  font-size: 70%;
   color: #0065FC;
 }
 
 .lodgepopular i {
-  font-size: 90%;
+  font-size: 70%;
   color: #0065FC;
 }
 
@@ -223,7 +223,7 @@ input {
   flex-flow: row wrap;
   justify-content: center;
   flex-basis: 65%;
-  height: 800px;
+  height: 700px;
   gap: 3%;
   border-radius: 20px;
   background-color: #F2F2F2;
@@ -235,7 +235,7 @@ input {
   flex-direction: column;
   justify-content: flex-start;
   width: 90%;
-  font-size: 110%;
+  font-size: 100%;
   margin-top: 40px;
 
 }
@@ -244,7 +244,7 @@ input {
 /* cartes de visites hebergements a Marseille */
 .lodge-marseille {
   width: 30%;
-  height: 270px;
+  height: 230px;
   background-color: white;
   border: 2px solid white;
   border-radius: 20px;
@@ -253,18 +253,19 @@ input {
 
 .img-marseille {
   display: block;
+  object-fit: cover;
   margin: auto;
   border-radius: 18px 18px 0px 0px;
   padding-top: 3%;
   width: 95%;
-  height: 150px;
+  height: 140px;
 }
 
 
 
 .precision-marseille {
   line-height: 170%;
-  font-size: 100%;
+  font-size: 90%;
   margin: 10px 0px 0px 10px;
 }
 
@@ -275,7 +276,7 @@ input {
   width: 93%;
   font-size: 120%;
   font-weight: bold;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .attach a {
@@ -287,9 +288,9 @@ input {
   display: flex;
   flex-direction: column;
   flex-basis: 35%;
-  height: 800px;
+  height: 700px;
   align-items: center;
-  gap: 55px;
+  gap: 45px;
   border-radius: 20px;
   background-color: #F2F2F2;
 }
@@ -297,7 +298,7 @@ input {
 /* titre et icone */
 .title-popular {
   width: 86%;
-  font-size: 110%;
+  font-size: 100%;
   margin-top: 40px;
   display: flex;
   flex-direction: row;
@@ -318,7 +319,7 @@ input {
   align-items: center;
   margin-bottom: 42px;
   width: 86%;
-  gap: 40px;
+  gap: 30px;
 }
 
 .lodgepopular {
@@ -326,7 +327,7 @@ input {
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  height: 180px;
+  height: 160px;
   padding-left: 1.2%;
   background-color: white;
   border-radius: 20px;
@@ -339,7 +340,7 @@ input {
   object-fit: cover;
   border-radius: 18px 0px 0px 18px;
   width: 35%;
-  height: 160px;
+  height: 140px;
  margin-left: 5px;
   margin-top: 10px;
 }
@@ -350,9 +351,9 @@ input {
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-  font-size: 100%;
+  font-size: 90%;
   line-height: 150%;
-  margin: 15px 5px 12px 10px;
+  margin: 15px 5px 15px 10px;
 
 }
 
@@ -375,7 +376,7 @@ input {
 
 /*titre Marseille*/
 #Activités {
-  font-size: 180%;
+  font-size: 150%;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -386,7 +387,7 @@ input {
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  height: 480px;
+  height: 380px;
   gap: 40px;
 }
 
@@ -396,7 +397,7 @@ input {
   flex-direction: column;
   align-items: flex-start;
   width: 30%;
-  height: 430px;
+  height: 350px;
   border: 0px solid white;
   border-radius: 20px;
   background-color: white;
@@ -405,7 +406,7 @@ input {
 
 .hobby-landscape {
   width: 100%;
-  height: 340px;/*MMA*/
+  height: 280px;/*MMA*/
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -425,7 +426,7 @@ input {
   object-position: 90% 15%;
 }
 .church {
-  object-fit: none;
+ object-fit: none;
   object-position: 100% top;
 }
 /* effet de survole */
@@ -433,14 +434,12 @@ input {
   transform: scale(1.05);
 }
 /* taille position des noms */
-.hobby-list p {
-  font-weight: bold;
-  font-size: 120%;
-}
 
 .hobby-list-position {
   display: block;
   width: 100%;
+  font-weight: bold;
+  font-size: 100%;
   margin: auto;
   padding-left: 5%;
 }
@@ -466,65 +465,23 @@ input {
   line-height: 40px;
 }
 
+/******************RESPONSIVE DESKTOP************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* RESPONSIVE DESKTOP */
 @media (992px <=width) {
 /*formulaire loupe et recherche*/
   .btn i {
     display: none;
-  }
-
-  /*HEBERGEMENT A MARSEILLE */
-  .hosts-marseille {
-    gap: 2%;
   }  
   
   /* les cartes de visites hebergements a Marseille */ 
   .precision-marseille {
     white-space: nowrap;
-    font-size: 95%;
   }
 }
 
 
+/***************RESPONSIVE TABLETTE *******************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* RESPONSIVE TABLETTE */
 @media (768px <=width <992px) {
 
   /* liens hebergements activités */
@@ -534,7 +491,6 @@ input {
 
   .menu {
     padding: 20px 0px 0px 0px;
-    font-size: 110%;
   }
   /* formulaire */
 
@@ -542,14 +498,7 @@ input {
   .btn i {
     display: none;
   }
-/* taille et position du formulaire */
-  .search h2 {
-    font-size: 140%;
-  }
 
-  .search p {
-    font-size: 110%;
-  }
 /* map bouton et recherche */
   .choice {
     height: 50px;
@@ -573,35 +522,13 @@ input {
   }
 
   /* FILTRE */
-  .filter-list i {
-    font-size: 100%;
-    padding: 10px 13px 10px 13px;
-  }
-
-  .filter {
-    font-size: 80%;
-    margin-right: -10px;
-  }
 
   .filter-choose span {
     font-size: 80%;
-    padding: 10px 12px 10px 0px;
   }
 
   .filter-choose {
-    margin: 1.7%;
-  }
-
-  /* icone information */
-  
-  .note-info {
-    font-size: 130%;
-    width: 30px;
-    height: 30px;
-  }
-
-  .info span {
-    font-size: 110%;
+    margin: 0.9%;
   }
 
   /* SECTION HEBERGEMENT ET POPULAIRES */
@@ -612,23 +539,17 @@ input {
 
   /*HEBERGEMENT A MARSEILLE*/
   .hosts-marseille {
-    margin-bottom: 8%;
+    margin-bottom: 5%;
   }
-
-  /* titre hebergement à Marseille */
-  .show-marseille {
-    font-size: 100%;
-    margin-bottom: 20px;
-  }
-
 
   /* cartes de visites hebergements a Marseille */
   .lodge-marseille {
-    height: 250px;
     margin-top: 3%;
   }
 
-
+.show-marseille {
+  width: 95%;
+}
   /*style de afficher plus */
   .attach {
     margin-top: 6%;
@@ -638,19 +559,17 @@ input {
   /* SECTION LES PLUS POPULAIRES */
   .hosts-popular {
     height: auto;
-    gap: 50px;
+    gap: 20px;
   }
-
-  /* titre et icone */
   .title-popular {
-    font-size: 100%;
+    width: 95%;
   }
 
   /* boites des cartes*/
   .hosts-popular-img {
     flex-direction: row;
     margin-bottom: 50px;
-    width: 93%;
+    width: 95%;
     gap: 10px;
   }
 
@@ -661,14 +580,13 @@ input {
   /* description populaire*/
   .precision-popular {
     line-height: 150%;
-
+    font-size: 80%;
   }
 
   /* ACTIVITES A MARSEILLE */
   /*titre Marseille*/
   #Activités {
-    font-size: 150%;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
   }
 
@@ -678,13 +596,22 @@ input {
   }
 
   .hobby-list {
-    height: 350px;
+    height: 280px;
   }
 
   /* image sur activités à Marseille */
   .hobby-landscape {
-    height: 280px;
+  height: 220px;
   }
+
+  .park {
+ object-fit: none;
+  object-position: 50% 50%;
+}
+.church {
+  object-fit: none;
+  object-position: 50% 10%;
+}
 
   /* FOOTER */
   .foot {
@@ -693,25 +620,8 @@ input {
 }
 
 
+/***************RESPONSIVE MOBILE****************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* RESPONSIVE MOBILE */
 @media (width < 768PX) {
   
   .container {
@@ -799,17 +709,17 @@ input {
   }
 
   .filter {
-    font-size: 130%;
+    font-size: 110%;
     margin-bottom: 20px;
   }
 
   .filter-list i {
-    font-size: 75%;
+    font-size: 70%;
     padding: 15px 2px 15px 10px;
   }
 
   .filter-choose span {
-    font-size: 74%;
+    font-size: 70%;
     padding: 15px 15px 15px 8px;
   }
 
@@ -844,20 +754,20 @@ input {
     flex-flow: column;
     align-items: center;
     width: 100%;
-    gap: 50px;
+    gap: 25px;
     border-radius: 0px;
   }
 
     /* le titre hebergement à Marseille */
     .show-marseille {
-      font-size: 120%;
-      margin-top: 80px;
+      font-size: 90%;
+      margin-top: 30px;
       width: 85%;
     }
 
   .lodge-marseille {
     width: 85%;
-    height: 350px;
+    height: 250px;
     background-color: white;
     border: 2px solid white;
     border-radius: 20px;
@@ -870,15 +780,13 @@ input {
     object-fit: cover;
     border-radius: 30px 30px 0px 0px;
     padding-top: 3%;
-    height: 220px;
+    height: 130px;
   }
-
-
 
   .precision-marseille {
     line-height: 160%;
-    font-size: 120%;
-    margin: 10px 0px 0px 7px;
+    font-size: 100%;
+    margin: 15px 0px 0px 10px;
   }
 
   /*style de afficher plus */
@@ -886,8 +794,6 @@ input {
       width: 85%;
     }
   
-
-
   /* SECTION LES PLUS POPULAIRES */
   .hosts-popular {
     width: 100%;
@@ -898,29 +804,29 @@ input {
   /* titre et icone */
   .title-popular {
     width: 85%;
-    font-size: 120%;
+    font-size: 90%;
 
   }
 
   /* boites des cartes*/
   .hosts-popular-img {
-    gap: 70px;
+    gap: 30px;
   }
 
   .lodgepopular {
-    height: 200px;
+    height: 180px;
   }
 
   .img-popular {
     width: 40%;
-    height: 190px;
+    height: 170px;
     margin: 5px 0px 5px 0px;
   }
 
   /* description populaire */
   .precision-popular {
     line-height: 180%;
-    font-size: 120%;
+    font-size: 100%;
     margin: 10px 0px 0px 15px;
     padding-bottom: 10px;
   }
@@ -934,7 +840,7 @@ input {
 
   #Activités {
     width: 138px;
-    font-size: 170%;
+    font-size: 150%;
     margin-top: 50px;
     margin-bottom: 60px;
     
@@ -950,7 +856,7 @@ input {
     flex-direction: column;
     align-items: center;
     height: auto;
-    gap: 50px;
+    gap: 40px;
   }
 
   /* image sur activités à Marseille */
@@ -958,26 +864,31 @@ input {
     align-items: center;
     justify-content: space-around;
     width: 85%;
-    height: 380px;
+    height: 250px;
   }
 
 .hobby-landscape {
-  height: 280px;
+  height: 180px;
 }
 /* position des images*/
 .port {
-  object-fit: none;
-  object-position: 10% 15%;
+  object-fit: cover;
+  object-position: 60% 0%;
 }
 
 .fort {
-  object-fit: none;
-  object-position: 40% 45%;
+  object-fit: cover;
+  object-position: 50% 35%;
+}
+
+.park {
+  object-fit: cover;
+  object-position: left 0%;
 }
 
 .church {
   object-fit: none;
-  object-position: 100% 0%;
+  object-position: 50% 20%;
 }
 /* taille position des noms */
   .hoby-list p {
