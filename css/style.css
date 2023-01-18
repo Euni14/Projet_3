@@ -121,14 +121,21 @@ input {
   font-weight: bold;
   font-size: 100%;
   margin-bottom: 30px;
-  gap: 4%;
+  gap: 60px;
 }
-
+/*la class eco-list pour gérer l'éspacement */
+.eco-list {
+  gap: 35px;
+  
+}
+/*la class pet-list pour gérer l'éspacement*/
+.pet-list {
+  gap: 30px;
+}
 .list-choose {
   display: flex;
   flex-direction: row;
   justify-content: center; 
-
 }
 
 .filter-list i {
