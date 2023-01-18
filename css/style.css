@@ -531,13 +531,14 @@ input {
   /* FILTRE */
 
   .filter-choose span {
-    font-size: 80%;
+   font-size: 80%;
   }
-
-  .filter-choose {
-    margin: 0.9%;
-  }
-
+.filter-list {
+  gap: 25px;
+}
+.list-choose {
+  gap: 5px;
+}
   /* SECTION HEBERGEMENT ET POPULAIRES */
   /* boite hebergements et populaires */
   .hosts {
@@ -705,11 +706,11 @@ input {
     width: 100%;
     align-items: flex-start;
     flex-direction: column;
+    gap: 10px;
   }
 
   .list-choose {
     justify-content: space-between;
-    gap: 2%;
     width: 100%;
     margin-bottom: 20px;
     padding: 0%;
